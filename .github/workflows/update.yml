@@ -23,12 +23,20 @@ jobs:
       - name: Setup Python
         uses: actions/setup-python@v2.2.1
       
+      - name: Install dependencies
+        run: |
+          pip install openpyxl
+          pip install requests
+      
       - name: Update data
         run: |
+          echo $PWD
+          ls
           python update.py
-          # git config user.name 'Tom Schuster'
-          # git config user.email 'evilpies@gmail.com'
-          # git commit index.html data -m "Import latest data" || true
-          # git push
+          git config user.name 'Tom Schuster'
+          git config user.email 'evilpies@gmail.com'
+          git add *.xlsx
+          git commit -m "Import latest data" || true
+          git push
         
 
