@@ -1,0 +1,34 @@
+name: 'Update data'
+
+on:
+  schedule:
+    # Run hourly at **:30. Although the RKI claims to update the
+    # spreadsheet “every working day by noon”, there have been uploads
+    # that happened after noon, and sometimes multiple uploads on a
+    # single day.
+    # https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_Coronavirus/Daten/Impfquoten-Tab.html
+    - cron: '30 * * * *'
+  workflow_dispatch:
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+        with:
+          ref: ${{ github.head_ref }}
+      
+      - name: Setup Python
+        uses: actions/setup-python@v2.2.1
+      
+      - name: Update data
+        run: |
+          python update.py
+          # git config user.name 'Tom Schuster'
+          # git config user.email 'evilpies@gmail.com'
+          # git commit index.html data -m "Import latest data" || true
+          # git push
+        
+
