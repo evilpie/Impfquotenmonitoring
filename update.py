@@ -29,9 +29,8 @@ with tempfile.TemporaryFile() as fp:
       break
 
     if open(path, mode='rb').read() == response.content:
-      # Duplicate
       print('Duplicate of "{}"'.format(path))
-      sys.exit(1)
+      sys.exit(0)
 
   print('Creating "{}"'.format(path))
   open(path, mode='wb').write(response.content)
