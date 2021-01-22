@@ -21,8 +21,8 @@ with tempfile.TemporaryFile() as fp:
 
   print('Date: {}'.format(date))
 
-  for number in range(0, 10):
-    u = '' if number == 0 else '-{}'.format(number)
+  for number in range(1, 10):
+    u = '' if number == 1 else '-{}'.format(number)
     path = 'Impfquotenmonitoring-{}{}.xlsx'.format(date, u)
 
     if not os.path.exists(path):
