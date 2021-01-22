@@ -4,7 +4,9 @@ Original source is the RKI:
 - https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_Coronavirus/Daten/Impfquoten-Tab.html
 - https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_Coronavirus/Daten/Impfquotenmonitoring.xlsx?__blob=publicationFile
 
-Initial collection thanks to [AshOwns91](https://www.reddit.com/user/AshOwns91) on reddit
+Initial collection thanks to [AshOwns91](https://www.reddit.com/user/AshOwns91) on reddit.
+
+We are still **missing data** for [certain dates](https://github.com/evilpie/Impfquotenmonitoring/issues/4). Please open a PR if you can provide us with a copy!
 
 ## Related projects
 
