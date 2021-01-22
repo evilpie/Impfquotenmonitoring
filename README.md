@@ -10,3 +10,4 @@ Initial collection thanks to [AshOwns91](https://www.reddit.com/user/AshOwns91) 
 
 - Historical data from these spreadsheets in machine-readable CSV format: https://github.com/mathiasbynens/covid-19-vaccinations-germany/blob/main/data/data.csv
 - Charts based on this data: https://mathiasbynens.github.io/covid-19-vaccinations-germany/
+- Source of [Our World in Data](https://ourworldindata.org/covid-vaccinations): https://github.com/owid/covid-19-data/tree/master/public/data/vaccinations
