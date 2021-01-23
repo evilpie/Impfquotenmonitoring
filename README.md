@@ -7,7 +7,7 @@ Original source is the RKI:
 Initial collection thanks to [AshOwns91](https://www.reddit.com/user/AshOwns91) on reddit.
 Additional historical data thanks to [archive.org](https://archive.org/) and [ard-data/2020-rki-impf-archive](https://github.com/ard-data/2020-rki-impf-archive).
 
-We are still **missing data** for [certain dates](https://github.com/evilpie/Impfquotenmonitoring/issues/4). Please open a PR if you can provide us with a copy!
+The date in the filename is the last modified date as saved in the file by Excel.
 
 ## Related projects
 
