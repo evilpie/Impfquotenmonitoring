@@ -31,8 +31,8 @@ jobs:
       - name: Update data
         run: |
           python update.py
-          git config user.name 'Tom Schuster'
-          git config user.email 'evilpies@gmail.com'
+          git config user.name 'Bot'
+          git config user.email 'update@bot.invalid'
           git add *.xlsx
           git commit -m "Import latest data" || true
           git push
