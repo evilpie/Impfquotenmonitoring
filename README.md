@@ -1,5 +1,7 @@
 # Archive of "Digitales Impfquotenmonitoring zur COVID-19-Impfung"
 
+Archived, see https://github.com/robert-koch-institut/COVID-19-Impfungen_in_Deutschland instead.
+
 Original source is the RKI:
 - https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_Coronavirus/Daten/Impfquoten-Tab.html
 - https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_Coronavirus/Daten/Impfquotenmonitoring.xlsx?__blob=publicationFile
